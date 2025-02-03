@@ -1,0 +1,9 @@
+- ver si un numero es par o impar
+
+- Contador de vocales en una palabra
+
+- saludar al rey
+
+- hacer la raiz de un numero
+
+- (funciones) hacer un TFG/TFM
