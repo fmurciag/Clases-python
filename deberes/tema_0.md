@@ -3,8 +3,11 @@
 ## Número par o impar
 ```python
 meto un número
-mi numero /2 
-veo si tengo una parte decimal 
+mi numero /2
+si decimal =/= 0 
+par = false
+si decimal = 0
+par = true
 ```
 ---
 ## Contador vocales
