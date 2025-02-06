@@ -16,5 +16,4 @@ separo cada letra
     si la letra es a OR e OR i OR o OR u
     contador = +1
     si no hay mas letras, paro
-
 ```
