@@ -1,0 +1,12 @@
+- maquina de cambio de monedas que solo trabaje con monedas
+  entrada 3.25
+  salida:
+  1 monead de 2€
+  1 monead de 1€
+  1 monead de 0.20€
+  1 monead de 0.05€
+
+- maquina de jugar al piedra papel tikera lagarto spok
+    entrada sera una funcion aleatoria (https://ellibrodepython.com/numeros-aleatorios-python)
+    sea incinito y que se dentenga cuando pones 0 
+    opcion 1 piedra, 2 papel 3...
