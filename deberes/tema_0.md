@@ -6,8 +6,10 @@ meto un número
 mi numero /2
 si decimal =/= 0 
 par = false
-si decimal = 0
+par("no par")
+si decimal == 0
 par = true
+print("par")
 ```
 ---
 ## Contador vocales
