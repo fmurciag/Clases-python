@@ -1,11 +1,11 @@
-# Resolución ejercicios tema 0 : Pseudocodigos
+# Tema 0 : Pseudocodigos
 
 ## Número par o impar
 ```python
 meto un número
 mi numero /2
 si decimal =/= 0 
-par = false
+print = false
 par("no par")
 si decimal == 0
 par = true
