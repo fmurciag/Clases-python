@@ -1,12 +1,12 @@
 #Máquina de cambio de monedas
 
 def cambio_monedas(perras:float):
-    lista_monedas=[2, 1, 0.50, 0.20, 0.10, 0.05, 0.01]
+    lista_monedas=[2, 1, 0.50, 0.20, 0.10, 0.05, 0.02, 0.01]
     for i in range(0, len(lista_monedas)):
         moneda_seleccionada = lista_monedas[i]
         resultado = perras / moneda_seleccionada
         cociente = perras // moneda_seleccionada
-        resto = perras % moneda_seleccionada
+        resto = round(perras % moneda_seleccionada,4)
         if cociente < 1:
             perras = resto
 
@@ -22,7 +22,7 @@ def cambio_monedas(perras:float):
 salir = False
 while not salir:
     number = input("Insertar una cantidad de perras :")
-    if number == "cerrar":
+3.68    if number == "cerrar":
         salir = True
     else:
         number_ = float(number)
