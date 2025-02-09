@@ -18,3 +18,5 @@ print(f "{cociente} moneda de {lista_monedas(i)} €")
 ## Piedra, Papel, Tijera, Largato, Spok
 
 ## Contreseña segura
+defino funcion checkeador_contraseña
+-> El usuario entra su contraseña
