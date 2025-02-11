@@ -20,3 +20,7 @@ print(f "{cociente} moneda de {lista_monedas(i)} €")
 ## Contreseña segura
 defino funcion checkeador_contraseña
 -> El usuario entra su contraseña
+-> Se encripta con el SSH
+-> Display "Contreseña guardada"
+-> Guardar el hash de la contraseña
+->
