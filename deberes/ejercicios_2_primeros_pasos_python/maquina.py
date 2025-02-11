@@ -22,7 +22,7 @@ def cambio_monedas(perras:float):
 salir = False
 while not salir:
     number = input("Insertar una cantidad de perras :")
-3.68    if number == "cerrar":
+    if number == "cerrar":
         salir = True
     else:
         number_ = float(number)
