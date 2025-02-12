@@ -1,11 +1,11 @@
 # Juego de Adivinanzas
 
-Descripción: Escribe un programa que  pida al usuario un numero y si es el numero no es primo que te solicite otro .
+Descripción: Escribe un programa que pida al usuario un número y si es el número no es primo que te solicite otro.
 
-Adjunto una funcion `es_primo(numero)`para saber si es primo o no, si es primo devuelve verdadero
+Adjunto una función `es_primo(número)` para saber si es primo o no, si es primo devuelve verdadero.
 
-
-```Python
+---
+```python
 
 def es_primo(num):
     def es_primo_aux(num, n=2):
@@ -16,8 +16,12 @@ def es_primo(num):
         else:
             return False
     return es_primo_aux(num, n=2)
+```
+---
+`es_primo(13)`
 
-es_primo(13)
->> True
-es_primo(2)
->> False
+-> True
+
+`es_primo(4)`
+
+-> False
