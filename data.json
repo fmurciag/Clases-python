@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ana",
+        "apellido": "Gómez",
+        "edad": 28,
+        "email": "ana.gomez@example.com",
+        "activo": true
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos",
+        "apellido": "Fernández",
+        "edad": 34,
+        "email": "carlos.fernandez@example.com",
+        "activo": false
+    },
+    {
+        "id": 3,
+        "nombre": "Elena",
+        "apellido": "Martínez",
+        "edad": 22,
+        "email": "elena.martinez@example.com",
+        "activo": true
+    },
+    {
+        "id": 4,
+        "nombre": "Luis",
+        "apellido": "Rodríguez",
+        "edad": 40,
+        "email": "luis.rodriguez@example.com",
+        "activo": true
+    },
+    {
+        "id": 5,
+        "nombre": "Marta",
+        "apellido": "Sánchez",
+        "edad": 29,
+        "email": "marta.sanchez@example.com",
+        "activo": false
+    }
+]
