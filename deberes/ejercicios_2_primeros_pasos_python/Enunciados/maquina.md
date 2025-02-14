@@ -1,43 +1,33 @@
-# 🏦 Ejercicio: Máquina de Cambio de Monedas 💰  
+# Máquina de Juego: Piedra, Papel, Tijera, Lagarto, Spock
 
-## 📌 Descripción  
-Debes crear un programa que simule una **máquina de cambio de monedas** que descomponga una cantidad de dinero en las monedas de euro disponibles.  
+## Descripción
+Crear un programa en Python que permita jugar al clásico juego *Piedra, Papel, Tijera, Lagarto, Spock* contra una máquina. El programa debe ejecutarse de forma indefinida hasta que el usuario elija salir.
 
-El programa solo trabaja con las siguientes **monedas**:  
-- **2€**
-- **1€**
-- **0.50€**
-- **0.20€**
-- **0.10€**
-- **0.05€**
-- **0.02€**
-- **0.01€**
+## Reglas del Juego
+El juego sigue estas reglas:
 
-Dado un importe en **euros**, el programa debe calcular cuántas monedas de cada tipo se necesitan para dar el cambio de la forma más eficiente (usando el menor número de monedas posible).
+- **Piedra aplasta Tijera**
+- **Piedra aplasta Lagarto**
+- **Papel cubre Piedra**
+- **Papel desautoriza Spock**
+- **Tijera corta Papel**
+- **Tijera decapita Lagarto**
+- **Lagarto devora Papel**
+- **Lagarto envenena Spock**
+- **Spock vaporiza Piedra**
+- **Spock rompe Tijera**
 
----
+## Instrucciones
+1. El usuario debe seleccionar una opción:
+   - `[1] Piedra`
+   - `[2] Papel`
+   - `[3] Tijera`
+   - `[4] Lagarto`
+   - `[5] Spock`
+   - `[0] Salir`
+2. La máquina elegirá una opción de manera aleatoria.
+   - usa numeros aleatorios [pista](https://ellibrodepython.com/numeros-aleatorios-python)
+3. Se determinará el resultado según las reglas del juego.
+4. El juego continuará hasta que el usuario introduzca `0` para salir.
 
-## 🎯 Requisitos del programa  
-
-✅ Pedir al usuario que introduzca un número decimal con la cantidad de dinero.  
-✅ Desglosar el importe en las monedas de **mayor valor posible** primero.  
-✅ Mostrar cuántas monedas de cada tipo se entregan.  
-✅ Asegurarse de que la cantidad sea válida (mayor a 0 y con máximo 2 decimales).  
-
----
-
-## 📝 Ejemplo de ejecución  
-
-### **Entrada:**  
-```
-  entrada 3.25
-  salida:
-  1 monead de 2€
-  1 monead de 1€
-  1 monead de 0.20€
-  1 monead de 0.05€
-  ```
-
-
-
-  
+## Ejemplo de Ejecución
