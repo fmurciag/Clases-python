@@ -1,14 +1,14 @@
-def construir_montana(lista):
-    lista.sort()  # Ordenamos la lista en orden ascendente
-    mayor = lista.pop()  # Extraemos el mayor
-    pares = [num for num in lista if num % 2 == 0]  # Filtramos los pares
-    impares = [num for num in lista if num % 2 != 0]  # Filtramos los impares
-
-    montana = pares + [mayor] + impares  # Concatenamos los pares, el mayor y los impares
-    return montana
+from pathlib import Path
+import glob
 
 
-# Ejemplo de uso
-lista_original = [1, 2, 3, 4, 5, 6, 7]
-montana = construir_montana(lista_original)
-print(montana)
+def buscar_json(directorio):
+    return list(Path(directorio).rglob("*.json"))
+
+
+ruta_del_directorio = "."  # Directorio actual
+archivos_encontrados = buscar_json(ruta_del_directorio)
+
+print("Archivos JSON encontrados:")
+for archivo in archivos_encontrados:
+    print(archivo)

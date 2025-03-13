@@ -1,3 +1,6 @@
+from result import Result
+
+
 class Reactor:
     def __init__(self, volumen, temperatura, presion):
         self.volumen = volumen
@@ -8,6 +11,8 @@ class Reactor:
         print(
             f"Simulando reactor con volumen {self.volumen} m3, temperatura {self.temperatura}°C y presión {self.presion} atm"
         )
+
+        return Result()
 
     def calcular_conversion(self, reaccion):
         print(f"Calculando conversión para la reacción {reaccion}")

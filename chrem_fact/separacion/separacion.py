@@ -5,7 +5,7 @@ class Separacion:
     def determinar_pureza(self):
         print("Determinando pureza del proceso de separación")
 
-    def simular(self):
+    def simular(self, entrada=None):
         print(f"Simulando proceso de separación con eficiencia del {self.eficiencia}%")
 
     def calcular_coste_operativo(self, energia_consumida, costo_energia):
