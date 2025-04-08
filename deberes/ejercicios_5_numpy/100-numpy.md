@@ -1,0 +1,1 @@
+[ejercicios para hacer en numpy, si llegais al 50 es suficiente, intentarlo](https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises.ipynb)
